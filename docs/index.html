@@ -5,10 +5,16 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@rokuwaki" />
+  <meta property="og:url" content="https://rokuwaki.github.io/SIW/" />
+  <meta property="og:title" content="rokuwaki/SIW" />
+  <meta property="og:description" content="Source Inversion Workshop" />
+  <meta property="og:image" content="https://rokuwaki.github.io/SIW/image/twitter-card.png" />
   <title>SIW</title>
-  <link href="https://fonts.gstatic.com" rel="preconnect">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Noto+Sans+Mono&display=swap" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" rel="stylesheet">
   <link href="./css/style.css" rel="preload" as="style">
   <link href="./css/style.css" rel="stylesheet">
@@ -16,7 +22,111 @@
 
 <body>
 
-SIW
+  <div class="container">
+
+    <nav id="menu-primary">
+      <div id="menu-brand">
+        <a href="https://rokuwaki.github.io/SIW/">SIW</a>
+      </div>
+      <div class="menu-container">
+        <div id="menu-toggle-primary">
+          <a class="open-menu-primary" href="#menu-primary"><span><i class="fas fa-bars"></i></span></a>
+          <a class="close-menu-primary" href="#"><span><i class="fas fa-times"></i></span></a>
+        </div>
+        <div class="wrap">
+          <ul class="menu-items" id="menu-primary-items">
+            <li class="menu-item"><a href="#about">about</a></li>
+            <li class="menu-item"><a href="#news">news</a></li>
+            <li class="menu-item"><a href="#contact">contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="cover">
+      <div class="cover-contents">
+        <h1 class="cover-title">SOURCE INVERSION WORKSHOP</h1>
+        <!-- TODO: Add date when it is fixed <p class="cover-date">DAY・DAY MONTH 20XX @ERI</p> -->
+      </div>
+    </div>
+
+    <div class="acknowledgments-box">
+      <div class="acknowledgments"><i class="fas fa-bullhorn"></i>本研究集会は、東京大学地震研究所共同利用 (<span class="mono">2022-W-03</span>) の援助をうけています</div>
+    </div>
+
+    <div class="sub-container">
+      <p class="sub-container-title" id="about">研究集会概要</p>
+      <p>本研究集会『震源インバージョンワークショップ 〜地震発生物理の包括的理解に向けた手法開発とその実践〜』では、地震時の震源過程を推定する震源インバージョン解析に携わる若手研究者が集い、震源インバージョンにまつわる諸問題および解決策について、その最新知見を共有します。
+        テーマを絞って密な議論を行うことで、地震発生物理の理解に資する、より良い震源インバージョン解析手法の構築可能性を模索することを目的としています。</p>
+      <table class="table organiser-table">
+        <tbody>
+          <tr>
+            <td class="td-left"><span><i class="fas fa-user-friends"></i></span>世話人</td>
+            <td class="td-any td-organiser-name"><a href="https://sites.google.com/view/agatar/home">縣亮一郎<a></td>
+          </tr>
+          <tr>
+            <td class="td-left"></td>
+            <td class="td-any td-organiser-name"><a href="https://www.geol.tsukuba.ac.jp/~rokuwaki/">奥脇亮<a></td>
+            <td class="td-any td-organiser-role">申請代表者</td>
+          </tr>
+          <tr>
+            <td class="td-left"></td>
+            <td class="td-any td-organiser-name"><a href="https://quaketm.bosai.go.jp/~hkubo/">久保久彦<a></td>
+          </tr>
+          <tr>
+            <td class="td-left"></td>
+            <td class="td-any td-organiser-name"><a href="https://sites.google.com/view/dyesksatonohomepage/">佐藤大祐<a></td>
+          </tr>
+          <tr>
+            <td class="td-left"></td>
+            <td class="td-any td-organiser-name"><a href="https://sites.google.com/site/takeshun1984/">武村俊介<a></td>
+            <td class="td-any td-organiser-role">地震研担当教員</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="sub-container">
+      <p class="sub-container-title" id="news">お知らせ</p>
+      <table class="table">
+        <tbody>
+          <tr>
+            <td class="td-left mono">2022-04-01</td>
+            <td class="td-any">開催準備中です。</td>
+          </tr>
+          <tr>
+            <td class="td-left mono">2022-02-25</td>
+            <td class="td-any">共同利用申請が採択されました。</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="sub-container">
+      <p class="sub-container-title" id="contact">お問い合わせ</p>
+      <p><a href="https://www.geol.tsukuba.ac.jp/~rokuwaki/">奥脇 亮 (申請代表者)</a></p>
+      <p class="mono"><a href="mailto:rokuwaki@geol.tsukuba.ac.jp"><i class="far fa-envelope"></i>rokuwaki@geol.tsukuba.ac.jp</a></p>
+    </div>
+
+    <div class="sub-container footer">
+      <nav id="menu-primary">
+        <div id="menu-brand">
+          <a href="#">震源インバージョンワークショップ</a>
+        </div>
+        <div class="menu-container">
+          <div class="wrap">
+            <ul class="menu-items" id="menu-primary-items">
+              <li class="menu-item"><a href="#about">研究集会概要</a></li>
+              <li class="menu-item"><a href="#news">お知らせ</a></li>
+              <li class="menu-item"><a href="#contact">お問い合わせ</a></li>
+              <li class="menu-item github"><a href="https://github.com/rokuwaki/SIW"><i class="fab fa-github-alt"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+  </div>
 
 </body>
 
