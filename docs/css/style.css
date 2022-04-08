@@ -328,4 +328,8 @@ li.menu-item {
   .cover-title {
     text-align: center;
   }
+
+  .cover-date {
+    text-align: center;    
+  }
 }
