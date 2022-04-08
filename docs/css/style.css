@@ -330,6 +330,7 @@ li.menu-item {
   }
 
   .cover-date {
-    text-align: center;    
+    text-align: center;
+    font-size: 12px;
   }
 }
