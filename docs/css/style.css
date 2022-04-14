@@ -130,6 +130,10 @@ table.table td.td-organiser-role {
   text-align: center;
 }
 
+table.table td.td-note-pale {
+  font-size: 12px;
+}
+
 table.styled-table {
   width: 100%;
   border-collapse: collapse;
