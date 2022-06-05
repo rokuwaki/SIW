@@ -96,14 +96,13 @@ p {
   margin: 0 0 0rem 0;
 }
 
-.fas,
-.far,
-.fab {
-  padding-right: 0.3rem;
+.fa-map-marker-alt,
+.fa-calendar-alt {
+  padding-left: 0.12rem;
 }
 
-.fa-info-circle {
-  padding-right: 0.1rem;
+.fa-bullhorn {
+  padding-right: 0.3rem;
 }
 
 .fa-envelope {
