@@ -27,7 +27,7 @@ p {
   text-justify: inter-ideograph;
 }
 
-.mono {
+.mono, .presentation-id, .presentation-time {
   font-family: 'Noto Sans Mono';
 }
 
