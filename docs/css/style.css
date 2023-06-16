@@ -42,7 +42,7 @@ rt {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: rgba(244, 188, 198, 0.75);
+  background: rgba(244, 188, 198, 0.4);
   font-family: 'Futura', 'Noto Sans JP', sans-serif;
 }
 
@@ -62,7 +62,7 @@ rt {
 
 .cover-date {
   letter-spacing: 5px;
-  color: #fff;
+  color:#444;
   line-height: 2rem;
   text-align: center;
   padding: 0 0.5rem 0 0.5rem;
@@ -197,7 +197,7 @@ tbody tr.row-sep {
 
 #menu-primary {
   letter-spacing: 3px;
-  background-color: rgba(244, 188, 198, 0.75);
+  background-color: rgba(244, 188, 198, 0.4);
   padding: 2rem 0 2rem calc((100vw - 1920px)/2 + 2rem);
   margin: 0;
   color: #fff;
@@ -212,12 +212,12 @@ tbody tr.row-sep {
 
 #menu-primary a:link,
 #menu-primary a:visited {
-  color: #fff;
+  color: #444;
 }
 
 #menu-primary a:hover,
 #menu-primary a:active {
-  color: #000;
+  color: #fff;
 }
 
 ul.menu-items {
